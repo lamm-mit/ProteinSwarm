@@ -90,7 +90,7 @@ run_goal_with_monitoring() {
     
     python -c "import gc; gc.collect()" 2>/dev/null
     
-    nohup python test_design_goals_batch.py $iterations --goal $goal_name > "$log_file" 2>&1 &
+    nohup python test_goal_design.py $iterations --goal $goal_name > "$log_file" 2>&1 &
     local design_pid=$!
     echo $design_pid > "$pid_file"
     
