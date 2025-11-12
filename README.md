@@ -26,8 +26,8 @@ swarm/
     ├── sequence_logo.R           # Sequence logo plot
     └── sequence_space.R          # Sequence space plot
 └── examples/                     # Example run scripts
-    ├── run_all_goals_with_monitoring.sh      
-    └── test_design_goals_batch.py    
+    ├── run_goals.sh              
+    └── test_design_goals.py    
 ```
 
 ## Quick Start
