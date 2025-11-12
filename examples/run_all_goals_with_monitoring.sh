@@ -16,7 +16,7 @@ echo "Total goals: ${#GOALS[@]}"
 echo ""
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ENERGY_MONITOR="analysis/energy_monitor.py"
+ENERGY_MONITOR="../analysis/energy_monitor.py"
 
 cd "$SCRIPT_DIR"
 
@@ -45,8 +45,8 @@ if [[ "$CONDA_SETUP_DONE" == "1" ]]; then
 elif command -v conda &> /dev/null; then
     CONDA_BASE=$(conda info --base)
     source "$CONDA_BASE/etc/profile.d/conda.sh"
-    conda activate protein_swarm
-    echo "✅ Conda environment 'protein_swarm' activated"
+    conda activate ProteinSwarm
+    echo "✅ Conda environment 'ProteinSwarm' activated"
     python -c "import pyrosetta; print('   PyRosetta: Available')" || {
         echo "❌ PyRosetta not available after activation"
         exit 1

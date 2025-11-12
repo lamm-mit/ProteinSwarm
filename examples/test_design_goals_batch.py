@@ -173,7 +173,7 @@ def test_single_design_goal(goal_config, iterations=64, logger=None):
         
         return False, goal_config['name'], elapsed_time, str(e)
 
-def run_all_design_goals(iterations=5):
+def run_all_design_goals(iterations=64):
     """Run all design goals in sequence."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     master_log_dir = f"design_goals_test_{timestamp}"
