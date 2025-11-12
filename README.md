@@ -63,12 +63,19 @@ Run a single goal with custom iterations (default 64):
 python test_design_goals_batch.py 32 --goal beta_strands
 ```
 
-### Available Design Goals
+#### Available Design Goals
 
 - `alpha_helices_hydrophilic` - Form alpha helices using hydrophilic residues
 - `beta_strands` - Form beta strands with alternating hydrophobic/polar residues
 - `loose_coils` - Form loose, extended coils with polar/charged residues
 - `alpha_helices_alanine_leucine_glutamate` - Form alpha helices with specific amino acids
+
+#### Running with Energy Monitoring
+
+Use the bash script to run all goals with real-time energy monitoring:
+```bash
+bash run_all_goals_with_monitoring.sh 64
+```
 
 ## License
 
