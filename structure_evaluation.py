@@ -1009,7 +1009,3 @@ def print_structure_evaluation(evaluation: Dict):
             print(f"  • {rec}")
     
     print("="*60)
-
-
-if __name__ == "__main__":
-    print("Structure evaluation module - run tests by importing and calling functions") 
