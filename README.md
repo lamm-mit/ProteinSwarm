@@ -21,7 +21,10 @@ swarm/
 ├── constants.py                  # Configuration constants
 ├── requirements.txt              # Python dependencies
 ├── analysis/                     # Analysis tools
-│   └── energy_monitor.ipynb      # Energy monitor
+    ├── energy_monitor.py         # Energy monitor
+    ├── llm_comparison.py         # LLM comparison
+    ├── sequence_logo.R           # Sequence logo plot
+    └── sequence_space.R          # Sequence space plot
 └── examples/                     # Example run scripts
     ├── run_all_goals_with_monitoring.sh      
     └── test_design_goals_batch.py    
@@ -50,7 +53,6 @@ Set up [OmegaFold](https://github.com/HeliXonProtein/OmegaFold/tree/main) for st
 Create a `local_config.py` file with your API credentials:
 
 ```python
-# local_config.py
 OPENAI_API_KEY = "your-openai-api-key"
 ```
 
@@ -76,10 +78,6 @@ Use the bash script to run all goals with real-time energy monitoring:
 ```bash
 bash run_all_goals_with_monitoring.sh 64
 ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## References
 
