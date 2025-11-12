@@ -1,4 +1,4 @@
-"""Lightweight memory and learning system."""
+"""Memory system."""
 
 import json
 import os
