@@ -81,4 +81,12 @@ bash run_all_goals_with_monitoring.sh 64
 
 ## References
 
-TBC
+```bibtex
+@article{buehler2025swarms,
+  title={Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation},
+  author={Wang, Fiona Y. and Lee, Di Sheng and Kaplan, David L. and Buehler, Markus J.},
+  journal={arXiv preprint arXiv:submit/7027477},
+  year={2025},
+  url={https://arxiv.org/user/},
+}
+```
