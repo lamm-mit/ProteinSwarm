@@ -21,13 +21,14 @@ swarm/
 ├── constants.py                  # Configuration constants
 ├── requirements.txt              # Python dependencies
 ├── analysis/                     # Analysis tools
-    ├── energy_monitor.py         # Energy monitor
-    ├── llm_comparison.py         # LLM comparison
-    ├── sequence_logo.R           # Sequence logo plot
-    └── sequence_space.R          # Sequence space plot
-└── examples/                     # Example run scripts
-    ├── run_goals.sh              
-    └── test_design_goals.py    
+│   ├── energy_monitor.py         # Energy monitor
+│   ├── llm_comparison.py         # LLM comparison
+│   ├── sequence_logo.R           # Sequence logo plot
+│   └── sequence_space.R          # Sequence space plot
+├── examples/                     # Example run scripts
+│   ├── run_goals.sh              
+│   └── test_design_goals.py    
+└── logs/                         # Design run logs
 ```
 
 ## Quick Start
